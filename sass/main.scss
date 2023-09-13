@@ -1,0 +1,42 @@
+.app{
+    padding: 89px;
+    #overview{
+        display: flex;
+        align-items: center;
+        .right{
+            .p1{
+                width: 445px;
+                height: 107px;
+                flex-shrink: 0;
+                color: #000;
+                font-family: Lato;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;                                
+            }
+            .p2{
+                width: 445px;
+                height: 115px;
+                flex-shrink: 0;
+                color: #000;
+                text-align: justify;
+                font-family: Lato;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 140%;  
+            }
+            .p3{
+                color: #ED4C5C;
+                text-align: justify;
+                font-family: Lato;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 140%; 
+                cursor: pointer;
+            }
+        }
+    }
+}
